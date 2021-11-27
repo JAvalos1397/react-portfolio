@@ -1,23 +1,28 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import Header from './components/Header';
 import Footer from './components/Footer';
-
-import About from './components/About'
+import Welcome from './components/Welcome';
+import Project from './components/Projects';
+import Contact from './components/Contact';
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom'
 
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      
+  
       <Routes> 
-        <Route path='/about' element={<About/>}/>
-        <Route path='/about' element={<About/>}/>
-        </Routes>
-       
+        <Route path='/' element={<Welcome/>}/>
+        <Route path='/project' element={<Project/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+
+        </Routes> 
+        
     <Footer/>
-    </div>
+    </>
   );
 }
 

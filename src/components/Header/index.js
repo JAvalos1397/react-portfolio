@@ -1,19 +1,27 @@
 import React, { Component } from "react";
-// import Navigation from "../../components/Navigation";
-// import About from "../../components/About";
-// import Portfolio from "../../components/Portfolio";
-// import Contact from '../../components/Contact';
-// import Resume from '../../components/Resume';
 
 
 class Header extends Component {
   render() {
     return (
       <>
-      <h1>Header</h1>
-      <ul>
-        <li><a href="/about">Click me</a></li>
+      <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"></svg>
+        <span class="fs-4">Simple header</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="/project" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="/resume" class="nav-link">Resume</a></li>
+        
+        
       </ul>
+    </header>
+  </div>
       </>
     
     );

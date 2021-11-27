@@ -1,4 +1,9 @@
 import react, { components } from "react";
+import nationalpark from '../../images/homePage.png'
+import bingo from '../../images/bingo.png'
+import workday from '../../images/demo.png'
+import quiz from '../../images/quiz-demo.png'
+
 
 function Project() {
     return (
@@ -10,7 +15,7 @@ function Project() {
       <div class="row">
         <div class="col-md-6 ">
           <div class="card">
-          <img class="card-img-top" href="../public/images/homePage.jpg" alt="National Park Searcher"/>
+          <img class="card-img-top" src={nationalpark} alt="National Park Searcher"/>
             <div class="card-body primary">
 
               <h5 class="card-title">National Park Searcher</h5>
@@ -21,7 +26,7 @@ function Project() {
         </div>
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="./assets/image/demo.png" alt="Workday Scheduler"/>
+            <img class="card-img-top" src={workday} alt="Workday Scheduler"/>
             <div class="card-body primary">
 
               <h5 class="card-title">Workday Scheduler</h5>
@@ -34,7 +39,7 @@ function Project() {
         </div>
         <div class="col-md-6 ">
           <div class="card">
-            <img class="card-img-top" src="./assets/image/quiz-demo.png" alt="Card image cap"/>
+            <img class="card-img-top" src={quiz} alt="Card image cap"/>
             <div class="card-body primary">
 
               <h5 class="card-title">Pixar Quiz</h5>
@@ -45,7 +50,7 @@ function Project() {
         </div>
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="./assets/image/bingo.png" alt="Card image cap"/>
+            <img class="card-img-top" src={bingo} alt="Card image cap"/>
             <div class="card-body primary">
 
               <h5 class="card-title">Online Bingo</h5>

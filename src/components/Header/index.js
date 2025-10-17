@@ -13,10 +13,10 @@ class Header extends Component {
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="/project" class="nav-link">Portfolio</a></li>
-        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-        <li class="nav-item"><a href="/resume" class="nav-link">Resume</a></li>
+        <li class="nav-item"><a href="/react-portfolio" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="/react-portfolio/project" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="/react-portfolio/contact" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="/react-portfolio/resume" class="nav-link">Resume</a></li>
         
         
       </ul>
